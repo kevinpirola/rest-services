@@ -29,7 +29,6 @@ public class UserController {
 
 	@RequestMapping(value = "/user")
 	public String getUser() {
-
 		return "theUser";
 	}
 }
